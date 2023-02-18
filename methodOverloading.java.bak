@@ -1,0 +1,27 @@
+class methodOverloading 
+{
+	String a;
+	String b;
+	int c;
+	double d;
+	methodOverloading()
+	{
+		System.out.println("method1");
+	}
+	methodOverloading(String a,String b)
+	{
+		System.out.println(a+b);
+	}
+	methodOverloading(int a,double b)
+	{
+		System.out.println(a+b);
+	}
+	public static void main(String[] args) 
+	{
+		methodOverloading m1=new methodOverloading("sai","nanu");
+		methodOverloading m3=new methodOverloading();
+		methodOverloading m2=new methodOverloading(10,90);
+	}
+}
+
+

@@ -1,0 +1,11 @@
+class A11 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		int b=ch-32;
+		int b1=b;
+		char ch1=b;
+		System.out.println(ch1);
+	}
+}

@@ -1,0 +1,35 @@
+class Vehicle 
+{
+	String name;
+	int price;
+	boolean emi;
+	String color;
+	String fuelType;
+	String vechileType;
+	Vehicle(String name,int price,boolean emi,String color,String fuelType,String vechileType)
+	{
+		this.name=name;
+		this.price=price;
+		this.emi=emi;
+		this.color=color;
+		this.fuelType=fuelType;
+		this.vechileType=vechileType;
+	}
+	public void display()
+	{
+		System.out.println("Vechile Name: "+this.name);
+		System.out.println("Vechile Price: "+this.price);
+		System.out.println("Vechile EMI: "+this.emi);
+		System.out.println("Vechile Color: "+this.color);
+		System.out.println("Vechile Fuel Type: "+this.fuelType);
+		System.out.println("Vechile Type:"+this.vechileType);
+		System.out.println("----------------");
+	}
+	public static void main(String[] args) 
+	{
+		Vehicle s1=new Vehicle("Hero",89000,true,"Red","Diesel","Bike");
+		s1.display();
+		Vehicle s2=new Vehicle("Honda",78000,false,"Black","Petrol","Bike");
+		s2.display();
+	}
+}

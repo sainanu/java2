@@ -1,0 +1,8 @@
+class A28 
+{
+	public static void main(String[] args) 
+	{
+		String a="aBvhA",a1="";
+
+	}
+}
